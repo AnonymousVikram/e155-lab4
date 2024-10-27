@@ -1,0 +1,39 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+# Indent case labels by 4 columns.
+IndentCaseLabels: true
+# Indent namespaces by 1 column.
+NamespaceIndentation: All
+# Indent width is 4 columns.
+IndentWidth: 4
+# Use 4 columns for line breaks.
+ColumnLimit: 80
+# Use spaces instead of tabs.
+UseTab: Never
+# Use spaces for alignment.
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+# Break before binary operators.
+BreakBeforeBinaryOperators: None
+# Break before braces.
+BreakBeforeBraces: Allman
+# Break before commas.
+BreakBeforeComma: false
+# Break before control structures.
+BreakBeforeControlStructures: All
+# Break before functions.
+BreakBeforeFunctionDefinition: all
+# Break before inheritance.
+BreakBeforeInheritanceComma: false
+---

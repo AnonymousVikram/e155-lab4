@@ -1,0 +1,14 @@
+InlayHints:
+  # BlockEnd: Yes
+  # Designators: Yes
+  Enabled: No
+  # ParameterNames: Yes
+  # DeducedTypes: Yes
+  TypeNameLimit: 40
+Hover:
+  ShowAKA: Yes
+Diagnostics:
+  UnusedIncludes: Strict
+Index:
+  Background: Build
+  StandardLibrary: Yes
